@@ -7,7 +7,8 @@ Python 3.7.4, PostgreSQL 11.5, selenium, BeautifulSoup4, psycopg2.
 ## 使用方法: 
 python crawler.py
 ## crontab:
-* 12 * * * /absolute-path/run_crawler.sh <br>
+$crontab -e <br>
+添加 * 12 * * * /absolute-path/run_crawler.sh  
 注意更改sh中的文件路径
 ## 输出：
 crawl.xls, 一个excel表格，存储全部信息。 bl_video: 从postgresql中export的csv文件
